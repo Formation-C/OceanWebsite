@@ -1,6 +1,9 @@
 # depslib dependency file v1.0
-1514140574 source:d:\devt\formationcpp\websitemanager\main.cpp
+1574870470 source:d:\devt\formationcpp\websitemanager\main.cpp
 	<iostream>
+	<algorithm>
+	"Thread.h"
+	"Post.h"
 
 1574864070 source:d:\devt\formationcpp\websitemanager\src\abstractcategory.cpp
 	"AbstractCategory.h"
@@ -17,11 +20,13 @@
 1574863833 source:d:\devt\formationcpp\websitemanager\src\member.cpp
 	"Member.h"
 
-1574863947 d:\devt\formationcpp\websitemanager\include\member.h
+1574867840 d:\devt\formationcpp\websitemanager\include\member.h
 	"User.h"
+	"Post.h"
 
-1574864391 d:\devt\formationcpp\websitemanager\include\user.h
+1574868094 d:\devt\formationcpp\websitemanager\include\user.h
 	<iostream>
+	"Event.h"
 
 1574865132 source:d:\devt\formationcpp\websitemanager\src\event.cpp
 	"Event.h"
@@ -29,10 +34,11 @@
 1574865368 d:\devt\formationcpp\websitemanager\include\event.h
 	<iostream>
 
-1574864895 source:d:\devt\formationcpp\websitemanager\src\thread.cpp
+1574869265 source:d:\devt\formationcpp\websitemanager\src\thread.cpp
 	"Thread.h"
 
-1574865378 d:\devt\formationcpp\websitemanager\include\thread.h
+1574868720 d:\devt\formationcpp\websitemanager\include\thread.h
+	<vector>
 	"ThreadCategory.h"
 
 1574865278 d:\devt\formationcpp\websitemanager\include\threadcategory.h
@@ -41,7 +47,7 @@
 1574865276 source:d:\devt\formationcpp\websitemanager\src\threadcategory.cpp
 	"ThreadCategory.h"
 
-1574863667 source:d:\devt\formationcpp\websitemanager\src\user.cpp
+1574868109 source:d:\devt\formationcpp\websitemanager\src\user.cpp
 	"User.h"
 
 1574865445 source:d:\devt\formationcpp\websitemanager\src\guest.cpp
@@ -49,4 +55,12 @@
 
 1574865452 d:\devt\formationcpp\websitemanager\include\guest.h
 	"User.h"
+
+1574870441 d:\devt\formationcpp\websitemanager\include\post.h
+	<iostream>
+	<vector>
+	"Thread.h"
+
+1574868611 source:d:\devt\formationcpp\websitemanager\src\post.cpp
+	"Post.h"
 

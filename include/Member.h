@@ -2,6 +2,7 @@
 #define MEMBER_H
 
 #include "User.h"
+#include "Post.h"
 
 class Member : public User
 {
@@ -15,6 +16,12 @@ class Member : public User
         void Setavatar(string val) { avatar = val; }
         void Setpassword(string val) { password = val; }
 
+        void getPosts(Post* _posts);
+        bool hasPost(const Post& _post);
+        void sendPost(const Post& _post);
+        void removePost(Post* _post);
+        void removeThread(Post* _Thread);
+        void setMemberRole(Member *_member, unsigned int role);
     protected:
 
     private:

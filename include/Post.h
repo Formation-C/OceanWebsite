@@ -2,12 +2,13 @@
 #define POST_H
 
 #include <iostream>
+#include <vector>
 #include "Thread.h"
 
 class Post
 {
     public:
-        Post();
+        Post(Thread *_thread, string _content);
         virtual ~Post();
 
         unsigned int Getid() { return id; }
@@ -18,8 +19,10 @@ class Post
         void Setcontent(string val) { content = val; }
         string Getdate() { return date; }
         void Setdate(string val) { date = val; }
-        Thread GetThread() { return *thread; }
+        Thread* GetThread() { return thread; }
         void SetThread(Thread val) { *thread = val; }
+
+        static vector<Post*> allPosts;
 
     protected:
 

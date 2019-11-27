@@ -1,6 +1,7 @@
 #ifndef THREAD_H
 #define THREAD_H
 
+#include <vector>
 #include "ThreadCategory.h"
 
 using namespace Thread_Namespace;
@@ -8,7 +9,7 @@ using namespace Thread_Namespace;
 class Thread
 {
     public:
-        Thread();
+        Thread(string _title);
         virtual ~Thread();
 
         unsigned int Getid() { return id; }
@@ -22,6 +23,7 @@ class Thread
         Category* Getcategory() { return category; }
         void Setcategory(Category* val) { category = val; }
 
+        static vector<Thread*> allThreads;
     protected:
 
     private:
@@ -30,6 +32,7 @@ class Thread
         bool locked;
         string creatorName;
         Category* category;
+
 };
 
 #endif // THREAD_H
