@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1514140574 source:d:\devt\formationcpp\websitemanager\main.cpp
+	<iostream>
+
+1574864070 source:d:\devt\formationcpp\websitemanager\src\abstractcategory.cpp
+	"AbstractCategory.h"
+
+1574864381 d:\devt\formationcpp\websitemanager\include\abstractcategory.h
+	<iostream>
+
+1574864736 source:d:\devt\formationcpp\websitemanager\src\eventcategory.cpp
+	"EventCategory.h"
+
+1574864705 d:\devt\formationcpp\websitemanager\include\eventcategory.h
+	"AbstractCategory.h"
+
+1574863833 source:d:\devt\formationcpp\websitemanager\src\member.cpp
+	"Member.h"
+
+1574863947 d:\devt\formationcpp\websitemanager\include\member.h
+	"User.h"
+
+1574864391 d:\devt\formationcpp\websitemanager\include\user.h
+	<iostream>
+
+1574865132 source:d:\devt\formationcpp\websitemanager\src\event.cpp
+	"Event.h"
+
+1574865368 d:\devt\formationcpp\websitemanager\include\event.h
+	<iostream>
+
+1574864895 source:d:\devt\formationcpp\websitemanager\src\thread.cpp
+	"Thread.h"
+
+1574865378 d:\devt\formationcpp\websitemanager\include\thread.h
+	"ThreadCategory.h"
+
+1574865278 d:\devt\formationcpp\websitemanager\include\threadcategory.h
+	<AbstractCategory.h>
+
+1574865276 source:d:\devt\formationcpp\websitemanager\src\threadcategory.cpp
+	"ThreadCategory.h"
+
+1574863667 source:d:\devt\formationcpp\websitemanager\src\user.cpp
+	"User.h"
+
+1574865445 source:d:\devt\formationcpp\websitemanager\src\guest.cpp
+	"Guest.h"
+
+1574865452 d:\devt\formationcpp\websitemanager\include\guest.h
+	"User.h"
+
