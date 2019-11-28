@@ -4,6 +4,11 @@
 #include <vector>
 #include "ThreadCategory.h"
 
+// forward declaration
+// include is at the end of the file
+class Post;
+#include "Post.h"
+
 using namespace Thread_Namespace;
 
 class Thread
@@ -23,6 +28,7 @@ class Thread
         Category* Getcategory() { return category; }
         void Setcategory(Category* val) { category = val; }
 
+        vector<Post*> Getposts(void);
         static vector<Thread*> allThreads;
     protected:
 

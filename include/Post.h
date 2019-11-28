@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <vector>
+
+class Thread;
 #include "Thread.h"
 
 class Post
@@ -20,7 +22,7 @@ class Post
         string Getdate() { return date; }
         void Setdate(string val) { date = val; }
         Thread* GetThread() { return thread; }
-        void SetThread(Thread val) { *thread = val; }
+        void SetThread(Thread* val) { thread = val; }
 
         static vector<Post*> allPosts;
 

@@ -25,6 +25,9 @@ int main()
     new Post(Thread::allThreads[0], "Post 1 du Thread 1");
     new Post(Thread::allThreads[0], "Post 2 du Thread 1");
     new Post(Thread::allThreads[1], "Post 1 du Thread 2");
+    new Post(Thread::allThreads[1], "Post 2 du Thread 2");
+    new Post(Thread::allThreads[1], "Post 3 du Thread 2");
+    new Post(Thread::allThreads[1], "Post 4 du Thread 2");
     new Post(Thread::allThreads[2], "Post 1 du Thread 3");
     new Post(Thread::allThreads[2], "Post 2 du Thread 3");
     new Post(Thread::allThreads[2], "Post 3 du Thread 3");
@@ -41,6 +44,9 @@ int main()
             displayPost(post);
         }
     }
+
+    vector<Post*> postsList = Thread::allThreads[1]->Getposts();
+    for_each(postsList.begin(), postsList.end(), displayPost);
 
     return 0;
 }
