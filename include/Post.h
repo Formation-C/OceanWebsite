@@ -21,19 +21,19 @@ class Post
         void Setcontent(string val) { content = val; }
         string Getdate() { return date; }
         void Setdate(string val) { date = val; }
-        Thread* GetThread() { return thread; }
+        Thread* Getthread() { return thread; }
         void SetThread(Thread* val) { thread = val; }
 
-        static vector<Post*> allPosts;
+        static vector<Post*> objects;
 
     protected:
 
     private:
         unsigned int id;
-        string authorName;
+        Thread *thread;
         string content;
         string date;
-        Thread *thread;
+        string authorName;
 };
 
 #endif // POST_H

@@ -28,8 +28,8 @@ class Thread
         Category* Getcategory() { return category; }
         void Setcategory(Category* val) { category = val; }
 
-        vector<Post*> Getposts(void);
-        static vector<Thread*> allThreads;
+        vector<Post*> getPosts(void);
+        static vector<Thread*> objects;
     protected:
 
     private:

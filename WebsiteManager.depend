@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1574930897 source:d:\devt\formationcpp\websitemanager\main.cpp
+1574936773 source:d:\devt\formationcpp\websitemanager\main.cpp
 	<iostream>
 	<algorithm>
 	"Thread.h"
@@ -34,10 +34,11 @@
 1574865368 d:\devt\formationcpp\websitemanager\include\event.h
 	<iostream>
 
-1574930611 source:d:\devt\formationcpp\websitemanager\src\thread.cpp
+1574936773 source:d:\devt\formationcpp\websitemanager\src\thread.cpp
 	"Thread.h"
+	"Template.h"
 
-1574930398 d:\devt\formationcpp\websitemanager\include\thread.h
+1574936772 d:\devt\formationcpp\websitemanager\include\thread.h
 	<vector>
 	"ThreadCategory.h"
 	"Post.h"
@@ -57,11 +58,18 @@
 1574865452 d:\devt\formationcpp\websitemanager\include\guest.h
 	"User.h"
 
-1574930724 d:\devt\formationcpp\websitemanager\include\post.h
+1574936772 d:\devt\formationcpp\websitemanager\include\post.h
 	<iostream>
 	<vector>
 	"Thread.h"
 
-1574868611 source:d:\devt\formationcpp\websitemanager\src\post.cpp
+1574936772 source:d:\devt\formationcpp\websitemanager\src\post.cpp
 	"Post.h"
+
+1574932878 source:d:\devt\formationcpp\websitemanager\src\template.cpp
+	"Template.h"
+
+1574936498 d:\devt\formationcpp\websitemanager\include\template.h
+	<vector>
+	<functional>
 
